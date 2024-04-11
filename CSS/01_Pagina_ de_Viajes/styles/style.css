@@ -1,9 +1,34 @@
-/* Estilos de paginas de viajes */
+/* Estilos de paginas de viajes 
 *{
     outline: solid black;
 }
+/*
 body { /* selección de body */
 font-family:Arial, sans-serif ; /* Cambia tipografía */
 margin: 0; /* Elimina todo el margen por predefinido */
 padding: 0; /* Elimina todo el relleno de los elementos */
 } 
+/* Aca viene el estilo de una clase container */
+.container{
+    width: 80%; /* Establece el ancho del container en un 80% */
+    margin: 0 auto; /* centra horizontalmente el container */ 
+}
+/* Estilo de encabezado*/ 
+header{
+    background-color: #333; /* Establece el color de fondo */
+    color: #fff; /* Establece el color del texto */
+    padding: 20px 0 ; /* añade relleno en la parte inferior y superior*/
+}
+header h1{
+    margin: 0; /* elimina el margen por defecto del titulo*/
+}
+/* Estilo de elemento de lista */
+nav ul li{
+    display: inline; /* Alinea los elementos */ 
+    margin-right:20px; /* Margen hacia la derecha */
+}
+/* Estilos a elementos de vinculo ancla(a) de navegación */
+nav ul li a{
+    color: #fff; /* Color a elemento anchor*/
+    text-decoration: none; /* Quita subrayado de enlace */
+}
