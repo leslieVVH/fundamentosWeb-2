@@ -2,12 +2,12 @@
 *{
     outline: solid black;
 }
-/*
-body { /* selección de body */
+*/
+body{ /* selección de body */
 font-family:Arial, sans-serif ; /* Cambia tipografía */
 margin: 0; /* Elimina todo el margen por predefinido */
 padding: 0; /* Elimina todo el relleno de los elementos */
-} 
+}
 /* Aca viene el estilo de una clase container */
 .container{
     width: 80%; /* Establece el ancho del container en un 80% */
@@ -17,7 +17,7 @@ padding: 0; /* Elimina todo el relleno de los elementos */
 header{
     background-color: #333; /* Establece el color de fondo */
     color: #fff; /* Establece el color del texto */
-    padding: 20px 0 ; /* añade relleno en la parte inferior y superior*/
+    padding: 20px 0 ; /* añade relleno en la parte inferior y superior */
 }
 header h1{
     margin: 0; /* elimina el margen por defecto del titulo*/
@@ -29,6 +29,40 @@ nav ul li{
 }
 /* Estilos a elementos de vinculo ancla(a) de navegación */
 nav ul li a{
-    color: #fff; /* Color a elemento anchor*/
+    color: #fff; /* Color a elemento anchor */
     text-decoration: none; /* Quita subrayado de enlace */
+}
+
+section{
+    padding: 40px 0; /* Añade relleno superior e inferior */
+}
+#banner{
+    background-image: url('http://via.placeholder.com/1500x500'); /* Establece la imagen del banner */
+    background-size: cover; /* Ajusta la imagen al area del banner */
+    color:#fff; /* Establece color del texto */
+    text-align: center; /* Centra el texto del banner */
+    padding: 100px; /* Añade relleno superior e inferior */
+}
+#banner h2{
+    font-size: 36px; /* Establece tamaño de h2 */
+}
+#banner p{
+    font-size: 18px; /* Establece tamaño de p */
+    margin-bottom: 20px; /* Define margen inferior */
+}
+.btn{
+    background-color: #007bff; /*color fondo de boton */
+    color: #fff; /* Color letra de boton*/
+    padding: 10px 20px; /* Relleno de boton*/
+    text-decoration: none; 
+}
+/* Cuando pasa mause sobre el boton */
+.btn:hover{
+    background-color: #0056b3;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
