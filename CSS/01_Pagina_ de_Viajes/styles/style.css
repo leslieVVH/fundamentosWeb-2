@@ -48,21 +48,42 @@ section{
 }
 #banner p{
     font-size: 18px; /* Establece tamaño de p */
-    margin-bottom: 20px; /* Define margen inferior */
+    margin-bottom: 20px; /* Define el margen inferior */
 }
 .btn{
     background-color: #007bff; /*color fondo de boton */
-    color: #fff; /* Color letra de boton*/
-    padding: 10px 20px; /* Relleno de boton*/
-    text-decoration: none; 
+    color: #fff; /* Color letra de boton */
+    padding: 10px 20px; /* Relleno de boton */
+    text-decoration: none;  /* Quita subrayado */
 }
 /* Cuando pasa mause sobre el boton */
 .btn:hover{
     background-color: #0056b3;
 }
+
+.destinos-container{
+    display: flex; /* Utiliza flexbox para alinear elementos */
+    justify-content: space-between; /*Distribuye uniformemente */
+    flex: wrap; /* Si los elementos no caben en la misma linea, agrega una nueva linea con estos elementos extras */
+}
+.destinos{
+    width: calc(33.33% - 20px); /* Establece el ancho de cada destino menos el espacio entre los destinos */
+    margin-bottom: 20px; /* Define el margen inferior */
+    text-align: center; /* Centra el texto */
+}
+.destinos img{
+    width: 100%; /* Establece el ancho de la imagen ajustandola al elemento que la contiene */
+    border-radius: 8px; /* agrega ezquinas redondeadas */
+}
+.destinos h3{
+    margin-top: 10px; /* Agrega margen superior entre imagen y h3 */
+}
+.destinos p{
+    margin-top: 10px; /* Agrega margen superior entre imagen y p */
+}
 footer{
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    background-color: #333; /* Cambia color del footer */
+    color: #fff; /* Color de texto de footer */
+    text-align: center; /*Centra el texto */
+    padding: 20px 0; /* Añade relleno superior e inferior */
 }
