@@ -1,0 +1,28 @@
+.box {
+    width: 300px; 
+    background-color: aquamarine;
+    padding: 40px; 
+    border: 1px solid black; 
+    margin: 10px; 
+}
+.box2 {
+    width: 300px; 
+    background-color: blue;
+    padding: 40px; 
+    border: 1px solid black; 
+    margin: 10px; 
+}
+.box3 {
+    width: 300px; 
+    background-color: brown;
+    padding: 40px; 
+    border: 1px solid black; 
+    margin: 10px;
+}
+.box4 {
+    width: 300px; 
+    background-color: rgb(78, 175, 40);
+    padding: 40px; 
+    border: 1px solid black; 
+    margin: 10px;
+}
