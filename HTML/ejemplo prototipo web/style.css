@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.margin{
+    background-color: chocolate;
+}
+.padding{
+    background-color: cornflowerblue;
+    padding: 45px;
+    border: 45px solid orange;
+    margin: 50px;
+}
+.content{
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+}
