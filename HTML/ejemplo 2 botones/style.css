@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.btn-Search, .btn-add, .btn-new{
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.btn-Search{
+    background-color: #fff;
+    border: 2px solid #7dc8c8;
+    color: #7dc8c8;
+    border-radius: 20px;
+    width: 100px;
+    font-weight: 900px; /* dar grosor al borde */
+}
+
+.btn-add{
+    width: 40px;
+    background-color: #00d1b2;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+}
+
+.btn-new{
+    width: 150px;
+    background-color: #2b78e4;
+    color:#fff;
+    border: 2px solid #000;
+    box-shadow: 3px 3px black; /*le da sombra a los lados */
+}
